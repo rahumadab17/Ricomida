@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #373A3C;
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    color: white;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+/* header */
+
+h1 {
+    color: #373A3C;
+}
+
+h4 {
+    color: #373A3C;
+}
+
+.custom-tooltip {
+    background-color: var(--bd-tertiary-bg);
+    color: var(--bs-white);
+  }
+
+
+.btn {
+    color: #373A3C;
+}
+
+/* receta */
+
+.receta {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.titulo-receta-1 {
+    text-decoration: underline;
+}
+
+.titulo-receta-2 {
+    text-decoration: underline;
+}
+
+/* RECETAS RELACIONADAS */
+
+.recetas-relacionadas .card-body {
+    font-family: "Cabin", sans-serif;
+    color: #373A3C;
+}
+
+.card {
+    height: 450px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/* ROJITO */
+
+.h3-ricomida {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #373A3C;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        text-align: center;
+    }
+
+    .h4-header {
+        text-align: center;
+    }
+
+    .center-buttons {
+        text-align: center;
+    }
+
+    .titulo-receta-1 .titulo-receta-2 {
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .btn-red {
+        width: 80%;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .h3-ricomida {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: white;
+    }
+
+}
